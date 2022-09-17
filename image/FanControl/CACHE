@@ -1,0 +1,15 @@
+{
+  "CurrentConfigFileName": "userConfig.json",
+  "Updater": {
+    "DisablePopupVersionNumber": 0
+  },
+  "Main": {
+    "DisableDonationPopup": false,
+    "FirstLaunch": false,
+    "Height": 628.0,
+    "Left": 192.0,
+    "PopupShownDateTime": "0001-01-01T00:00:00",
+    "Top": 118.4,
+    "Width": 1152.0
+  }
+}

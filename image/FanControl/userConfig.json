@@ -1,0 +1,37 @@
+{
+  "Main": {
+    "Controls": [],
+    "CustomSensors": [],
+    "DisplayTrayIconTemperature": true,
+    "FanCurves": [],
+    "FanSensors": [],
+    "HideFanSpeedCards": false,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "SelectedTrayIconColor": "Light",
+    "SelectedTrayIconSensor": null,
+    "ShowHiddenCards": true,
+    "StartMinimized": false,
+    "SyncThemeWithWindows": false,
+    "TemperatureSensors": []
+  },
+  "Sensors": {
+    "DisabledPlugins": [],
+    "DisableStorageSensors": false,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "GPU": true,
+      "Memory": true,
+      "Motherboard": true,
+      "PSU": false,
+      "Storage": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true
+    },
+    "SensorCount": 14
+  }
+}
