@@ -13,7 +13,7 @@
     --main-color: #b084bf;
     --second-color: rgb(219, 183, 240); 
     --text-color: black;
-    --gradient: linear-grandient(#a67eb3, rgb(74, 50, 88) );
+    --gradient: linear-grandient(#683579, rgb(74, 50, 88) );
 }
 /* custom scroll bar */
 html::-webkit-scrollbar {
@@ -166,4 +166,42 @@ input-box span {
 }
 .form-container form .btn:hover {
     background-color: var(--main-color);
+}
+.heading {
+    text-align: center;
+}
+.heading span {
+    font-size: 500;
+    text-transform: uppercase;
+}
+.heading h1 {
+    font-size: 2rem;
+}
+
+.ride-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.ride-container box {
+    text-align: center;
+    padding: 20px;
+}
+.ride-container .box .bx {
+    font-size: 40px;
+    padding: 10px;
+    background: #eeeff1;
+    border-radius: 1rem;
+    color: var(--main-color);
+}
+.ride-container .box h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1.4rem 0 0.5rem;
+}
+.ride-container .box .bx:hover, .ride-container .bx .bxs-calender-star{
+    background: var(--main-color);
+    color: #6f6275;
 }
