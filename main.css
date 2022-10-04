@@ -13,7 +13,7 @@
     --main-color: #b084bf;
     --second-color: rgb(219, 183, 240); 
     --text-color: black;
-    --gradient: linear-grandient(#683579, rgb(74, 50, 88) );
+    --gradient: linear-gradient(#683579, rgb(74, 50, 88) );
 }
 /* custom scroll bar */
 html::-webkit-scrollbar {
@@ -207,7 +207,7 @@ input-box span {
 }
 .services-container {
     display: grid;
-    grid-template-columns: repaeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 1rem;
     margin-top: 2;
 }
@@ -254,5 +254,33 @@ input-box span {
     border-radius: 0.5rem;
 }
 .services-container .box .btn:hover{
+    background: var(--main-color);
+}
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.about-img img {
+    width: 100%;
+}
+.about-text span {
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.about-text p{
+    margin: 0.5rem 0 1.5rem;
+}
+.about-text .btn {
+    padding: 10px 20px;
+    background: #474fa0;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+.about-text .btn:hover {
     background: var(--main-color);
 }
